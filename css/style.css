@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Lato:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-color: rgb(129, 121, 156);
+} 
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 220px;
+    height: 37px;
+    padding: 0px 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0px 6px 0px 56px;
+    padding: 0px 12px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.container .my-2{
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 100px;
+    padding-left: 10px;
+    border: solid 3px black;
+    border-radius: 4px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.slider img{
+    width: 800px;
+    margin-left: 100px;
+}
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+}
+
+.cards {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .container {
+    min-height: calc(100vh - 58px - 12vh);
+} */
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width:800px) {
+    body{background-color: rebeccapurple;}
+    .container{background-color: yellowgreen;}
+}
+@media screen and (max-width:700px) {
+    body{background-color: blue;}
+    .container{background-color: brown;}
+}
