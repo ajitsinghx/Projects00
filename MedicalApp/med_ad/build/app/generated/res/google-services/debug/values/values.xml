@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">891022331399-p50dt53fhj8grfrtoj4pc3skv15nqc4v.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">891022331399</string>
+    <string name="google_api_key" translatable="false">AIzaSyBUc7GnErIOHlOH30fCRL5BHu6OqH5wRAg</string>
+    <string name="google_app_id" translatable="false">1:891022331399:android:0c74142e225811136ea4a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBUc7GnErIOHlOH30fCRL5BHu6OqH5wRAg</string>
+    <string name="google_storage_bucket" translatable="false">medicare-208b5.appspot.com</string>
+    <string name="project_id" translatable="false">medicare-208b5</string>
+</resources>
